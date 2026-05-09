@@ -5,6 +5,7 @@ import { certificates } from "../../../data/certificates";
 import Promo from "../../blocks/promo/promo";
 import Skills from "../../blocks/skills/skills";
 import Certificates from "../../blocks/certificates/certificates";
+import SpecialProjects from "../../blocks/special-projects/special-projects";
 
 export default function MainPage() {
   return (
@@ -13,6 +14,7 @@ export default function MainPage() {
       <Promo />
       <Skills skills={skills} />
       <Certificates certificates={certificates} />
+      <SpecialProjects />
     </>
   );
 }

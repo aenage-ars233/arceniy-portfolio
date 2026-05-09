@@ -1,6 +1,28 @@
 import styled from "styled-components";
 
 const Button = styled.a`
+  ${({ $variant }) => $variant === 'primary' && `
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #7859CF;
+    border-radius: 4px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #9070EC;
+      color: #ffffff;
+    }
+
+    &:active {
+      background-color: #593CAC;
+      color: #ffffff;
+    }
+  `}
+
   ${({ $variant }) => $variant === 'secondary' && `
     display: inline-block;
     padding: 8px 20px;
