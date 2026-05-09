@@ -9,7 +9,7 @@ export const StyledPromo = styled.section`
   }
 
   @media (min-width: 1440px) {
-    padding: 100px 20px 120px;
+    padding: 60px 20px;
   }
 `;
 
