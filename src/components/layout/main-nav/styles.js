@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
 export const Navigation = styled.nav`
   @media (max-width: 768px) {
@@ -42,7 +41,7 @@ export const NavigationList = styled.ul`
   }
 `;
 
-export const NavigationLink = styled(Link)`
+export const NavigationLink = styled.a`
   display: block;
   padding: 20px;
   border-bottom: 1px solid #F0EBFF;

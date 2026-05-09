@@ -6,13 +6,13 @@ export default function MainNav({ isOpened }) {
     <Navigation $isOpened={isOpened}>
       <NavigationList>
         <li>
-          <NavigationLink to="/#projects">Проекты</NavigationLink>
+          <NavigationLink href="#projects">Проекты</NavigationLink>
         </li>
         <li>
-          <NavigationLink to="/#skills">Навыки</NavigationLink>
+          <NavigationLink href="#skills">Навыки</NavigationLink>
         </li>
         <li>
-          <NavigationLink to="/#certificates">Сертификаты</NavigationLink>
+          <NavigationLink href="#certificates">Сертификаты</NavigationLink>
         </li>
       </NavigationList>
     </Navigation>
