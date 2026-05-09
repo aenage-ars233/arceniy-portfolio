@@ -49,6 +49,7 @@ export const GlobalStyles = createGlobalStyle`
     margin: 0;
     background-color: #ffffff;
     font-family: "Montserrat", Arial, sans-serif;
+    color: #333333;
   }
 
   img {

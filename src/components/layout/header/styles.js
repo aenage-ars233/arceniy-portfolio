@@ -13,11 +13,11 @@ export const HeaderWrapper = styled.div`
   align-items: center;
 
   @media (min-width: 768px) {
-    width: 768px;
+    width: 728px;
   }
 
   @media (min-width: 1440px) {
-    width: 1440px;
+    width: 1400px;
   }
 `;
 
