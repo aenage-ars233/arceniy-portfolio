@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledSkills = styled.section`
-  padding: 50px 20px 60px;
+  padding: 40px 20px;
 
   @media (min-width: 768px) {
     padding: 60px 20px 100px;

@@ -1,9 +1,13 @@
 import { createGlobalStyle } from "styled-components";
+import MontserratRegular from "../../assets/fonts/Montserrat-Regular.woff2";
+import MontserratMedium from "../../assets/fonts/Montserrat-Medium.woff2";
+import MontserratSemiBold from "../../assets/fonts/Montserrat-SemiBold.woff2";
+import MontserratBold from "../../assets/fonts/Montserrat-Bold.woff2";
 
 export const GlobalStyles = createGlobalStyle`
   @font-face {
     font-family: "Montserrat";
-    src: url("../../assets/fonts/Montserrat-Regular.woff2") format("woff2");
+    src: url("${MontserratRegular}") format("woff2");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -11,7 +15,7 @@ export const GlobalStyles = createGlobalStyle`
 
   @font-face {
     font-family: "Montserrat";
-    src: url("../../assets/fonts/Montserrat-Medium.woff2") format("woff2");
+    src: url("${MontserratMedium}") format("woff2");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -19,7 +23,7 @@ export const GlobalStyles = createGlobalStyle`
 
   @font-face {
     font-family: "Montserrat";
-    src: url("../../assets/fonts/Montserrat-Semibold.woff2") format("woff2");
+    src: url("${MontserratSemiBold}") format("woff2");
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -27,7 +31,7 @@ export const GlobalStyles = createGlobalStyle`
 
   @font-face {
     font-family: "Montserrat";
-    src: url("../../assets/fonts/Montserrat-Bold.woff2") format("woff2");
+    src: url("${MontserratBold}") format("woff2");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -48,7 +52,7 @@ export const GlobalStyles = createGlobalStyle`
     height: 100%;
     margin: 0;
     background-color: #ffffff;
-    font-family: "Montserrat", Arial, sans-serif;
+    font-family: "Montserrat", "Arial", sans-serif;
     color: #333333;
   }
 

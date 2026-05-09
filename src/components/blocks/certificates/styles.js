@@ -4,7 +4,7 @@ export const StyledCertificates = styled.section`
   padding: 50px 20px 60px;
 
   @media (min-width: 768px) {
-    padding: 60px 20px 100px;
+    padding: 30px 20px 100px;
   }
 `;
 

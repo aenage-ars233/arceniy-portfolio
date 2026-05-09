@@ -1,4 +1,5 @@
 import certificateReactComponents from '../assets/certificate-react-components.png';
+import certificateCms from "../assets/certificate-cms.png";
 
 export const certificates = [
   {
@@ -6,11 +7,7 @@ export const certificates = [
     alt: 'Верстка React-компонентов',
   },
   {
-    image: certificateReactComponents,
-    alt: 'Верстка React-компонентов',
-  },
-  {
-    image: certificateReactComponents,
-    alt: 'Верстка React-компонентов',
+    image: certificateCms,
+    alt: 'Верстка под CMS',
   },
 ];

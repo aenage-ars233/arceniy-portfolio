@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledPromo = styled.section`
-  padding: 50px 20px 44px;
+  padding: 40px 20px 44px;
   background-color: rgba(120, 89, 207, 0.15);
 
   @media (min-width: 768px) {
