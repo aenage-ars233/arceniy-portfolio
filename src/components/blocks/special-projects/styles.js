@@ -109,7 +109,7 @@ export const SliderItem = styled.li`
   display: ${({ $isCurrent }) => $isCurrent ? 'block' : 'none'};
 
   @media (min-width: 1440px) {
-    display: flex;
+    display: ${({ $isCurrent }) => $isCurrent ? 'flex' : 'none'};
     align-items: center;
     column-gap: 40px;
   }
@@ -122,6 +122,7 @@ export const SliderImage = styled.img`
   margin: 0 auto;
   margin-bottom: 15px;
   border-radius: 8px;
+  border: 2px solid #7859CF;
 
   @media (min-width: 768px) {
     width: 600px;

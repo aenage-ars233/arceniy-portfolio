@@ -1,4 +1,5 @@
 import spreentAcademy from "../assets/spreent-academy.png";
+import drink2go from "../assets/drink2go.png";
 import startPage from "../assets/start-page.png";
 import sailClub from "../assets/sail-club.png";
 import greatKeksby from "../assets/great-keksby.png";
@@ -18,6 +19,17 @@ import catcafe from "../assets/catcafe.png";
 
 export const projects = {
   special: [
+    {
+      image: drink2go,
+      name: 'Drink2Go',
+      description: 'Финальный проект программы Фронтенд-разработчик. Drink2Go — это интернет-магазин по продаже кофейных напитков. Удобная сортировка по странам произрастания зерна и концентрации молока поможет выбрать идеальный напиток.',
+      properties: [
+        'Адаптивность',
+        'Оживлённый слайдер',
+        'Интерактивная карта',
+      ],
+      link: 'https://drink2go-arceniy.netlify.app/',
+    },
     {
       image: spreentAcademy,
       name: 'Об академии Spreent',
