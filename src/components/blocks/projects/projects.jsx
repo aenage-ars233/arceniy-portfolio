@@ -4,7 +4,7 @@ import { StyledProjects, ProjectsWrapper } from "./styles";
 
 export default function Projects({ categories = [] }) {
   return (
-    <StyledProjects>
+    <StyledProjects id="projects">
       <ProjectsWrapper>
         {categories.map((category) => (
           <Category category={category} />
