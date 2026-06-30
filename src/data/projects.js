@@ -16,6 +16,7 @@ import kekstagram from "../assets/kekstagram.png";
 import keksobooking from "../assets/keksobooking.png";
 import farmerProducts from "../assets/farmer-products.png";
 import catcafe from "../assets/catcafe.png";
+import bigTrip from "../assets/big-trip.png";
 
 export const projects = {
   special: [
@@ -161,6 +162,14 @@ export const projects = {
       description: 'Сайт крупнейшего котокафе России, в котором живёт 50 кошек и котов, и каждый из них ищет новый дом.',
       level: 1,
       link: 'https://extraordinary-croissant-87fba4.netlify.app/',
+    }
+  ],
+  js2: [
+    {
+      image: bigTrip,
+      name: 'Большое путешествие',
+      description: 'Современный сервис для настоящих путешественников. Сервис помогает детально спланировать маршрут поездки, рассчитать стоимость путешествия и получить информацию о достопримечательностях. Минималистичный интерфейс не даст повода отвлечься и сфокусирует внимание на планировании путешествия.',
+      link: 'https://big-trip2026.netlify.app/',
     }
   ],
 };

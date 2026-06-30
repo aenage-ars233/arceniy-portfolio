@@ -19,4 +19,9 @@ export const skills = [
     description: 'Вёрстка по макету Figma с помощью библиотеки React.',
     link: 'https://htmlacademy.ru/levelup/levelup-react-components',
   },
+  {
+    name: 'JavaScript 2-го уровня',
+    description: 'Создание клиентских приложении, применяя архитектурный паттерн MVP',
+    link: 'https://htmlacademy.ru/intensive/ecmascript',
+  }
 ];

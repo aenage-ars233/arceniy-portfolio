@@ -25,5 +25,10 @@ export const categories = [
     title: 'Вёрстка React-компонентов',
     description: 'Проекты из этой секции свёрстаны и оживлены с помощью библиотеки React.',
     projects: projects.reactComponents,
+  },
+  {
+    title: 'JavaScript. Архитектура клиентских приложений',
+    description: '',
+    projects: projects.js2,
   }
 ];
