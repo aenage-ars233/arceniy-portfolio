@@ -30,5 +30,10 @@ export const categories = [
     title: 'JavaScript. Архитектура клиентских приложений',
     description: '',
     projects: projects.js2,
+  },
+  {
+    title: 'React. Разработка сложных клиентских приложений',
+    description: '',
+    projects: projects.js3,
   }
 ];

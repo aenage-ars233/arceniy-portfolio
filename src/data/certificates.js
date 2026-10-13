@@ -2,6 +2,7 @@ import certificteFrontend from "../assets/certificte-frontend.png";
 import certificateReactComponents from '../assets/certificate-react-components.png';
 import certificateCms from "../assets/certificate-cms.png";
 import certificateJs2 from "../assets/certificate-js2.png";
+import certificateReact from "../assets/certificate-react.png";
 
 export const certificates = [
   {
@@ -19,5 +20,9 @@ export const certificates = [
   {
     image: certificateJs2,
     alt: 'JavaScript. Архитектура клиентских приложений',
+  },
+  {
+    image: certificateReact,
+    alt: 'React. Разработка сложных клиентских приложений',
   }
 ];

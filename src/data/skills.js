@@ -23,5 +23,10 @@ export const skills = [
     name: 'JavaScript 2-го уровня',
     description: 'Создание клиентских приложении, применяя архитектурный паттерн MVP',
     link: 'https://htmlacademy.ru/intensive/ecmascript',
+  },
+  {
+    name: 'JavaScript 3-го уровня',
+    description: 'Создание сложных клиентских приложений с использованием TypeScript и библиотеки React.',
+    link: 'https://htmlacademy.ru/intensive/react',
   }
 ];

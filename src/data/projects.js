@@ -17,6 +17,7 @@ import keksobooking from "../assets/keksobooking.png";
 import farmerProducts from "../assets/farmer-products.png";
 import catcafe from "../assets/catcafe.png";
 import bigTrip from "../assets/big-trip.png";
+import sixCities from "../assets/six-cities.png";
 
 export const projects = {
   special: [
@@ -170,6 +171,14 @@ export const projects = {
       name: 'Большое путешествие',
       description: 'Современный сервис для настоящих путешественников. Сервис помогает детально спланировать маршрут поездки, рассчитать стоимость путешествия и получить информацию о достопримечательностях. Минималистичный интерфейс не даст повода отвлечься и сфокусирует внимание на планировании путешествия.',
       link: 'https://big-trip2026.netlify.app/',
+    }
+  ],
+  js3: [
+    {
+      image: sixCities,
+      name: 'Шесть городов',
+      description: 'Сервис для путешественников, не желающих переплачивать за аренду жилья. Выбирайте один из шести популярных городов для путешествий и получайте актуальный список предложений по аренде. Подробная информация о жилье, показ объекта на карте, а также лаконичный интерфейс сервиса помогут быстро выбрать оптимальное предложение.',
+      link: 'https://arceniy-six-cities.netlify.app/',
     }
   ],
 };
